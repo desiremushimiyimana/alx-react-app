@@ -2,6 +2,13 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './alx-react-app-new/src/App.jsx'
 import './index.css'
+function Header() {
+  return (
+    <header style={{ backgroundColor: 'navy', color: 'white', textAlign: 'center' }}>
+      <h1>My Favorite Cities</h1>
+    </header>
+  );
+}
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
